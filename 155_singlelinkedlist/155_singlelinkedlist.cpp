@@ -71,3 +71,9 @@ bool serachNode(int nim, Node* current, Node* previous) {
 
 }
 
+bool listEmpty() {
+	if (START == NULL)
+		return true;
+	else
+		return false;
+}
