@@ -9,3 +9,9 @@ struct Node {
 
 Node* start = NULL;
 
+void addNode() {
+	int nim;
+	string nama;
+	Node* nodeBaru = new Node();
+}
+
