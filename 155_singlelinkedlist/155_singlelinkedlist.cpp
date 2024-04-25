@@ -94,7 +94,7 @@ void traverse() {
 	}
 }
 
-void serachData() {
+void searchData() {
 	if (listEmpty()) {
 		cout << "List Kosong" << endl;
 		system("pause");
@@ -150,6 +150,9 @@ int main() {
 				break;
 			case 3:
 				traverse();
+				break;
+			case 4:
+				searchData();
 				break;
 
 			}
